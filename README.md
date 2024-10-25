@@ -1,5 +1,7 @@
 # Project-Bumper-Brawl
 
+NOTE: We couldn't get the game to build and didn't have time to sort out the error. The screenshot of the error we got is included.
+
 AJ Bwejesa - Programmer/making charts
 Donovan Mills - Programmer/making charts
 
