@@ -47,7 +47,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
+Plugins/**/Binaries/*
 
 # Builds
 Build/*
@@ -68,7 +68,59 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/*/Intermediate/*
+Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# --- Unreal Engine Specific ---
+/Binaries/*
+/DerivedDataCache/*
+/Intermediate/*
+/Saved/*
+
+# --- Blender Specific ---
+*.blend1
+*.blend2
+*.blend@
+__pycache__/
+
+# General system or editor specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editor configurations
+.idea/
+*.log
+.vscode/
+*.vsconfig
+*.userprefs
+
+# Git Large File Storage (LFS) Tracking
+.gitattributes
+
+# --- Custom additions ---
+# Unreal Engine cache and temporary files
+*.bin
+
+# Shader headers
+*.ush
+
+# Auto-screenshot files
+*.png
+
+# Crash report files
+CrashReportClient.ini
+
+# User settings
+UserSettings.ini
+
+# Editor-related config and cache files
+DDCKey-Editor.txt
+
+# Custom exclusions for specific files
+# Exclude specific files
+BumperBrawl/Intermediate/CachedAssetRegistry_0.bin
+BumperBrawl/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+BumperBrawl/Saved/Telemetry/Telemetry.json
+BumperBrawl/Saved/AutoScreenshot.png
